@@ -16,9 +16,9 @@ var buttonDiv = document.getElementById("button-div")
 
 buttonDiv.style.display = "flex"
   
-var ratingButton = document.getElementById("rating-button")
+var ratingButton = document.getElementById("summary")
 
-var orderButton = document.getElementById("order-button")
+var orderButton = document.getElementById("order")
 
 ratingButton.addEventListener("click", function(){
   swal({
